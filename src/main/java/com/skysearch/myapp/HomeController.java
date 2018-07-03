@@ -1,4 +1,4 @@
-package com.skysearch.myap;
+package com.skysearch.myapp;
 
 import java.text.DateFormat;
 import java.util.Date;
