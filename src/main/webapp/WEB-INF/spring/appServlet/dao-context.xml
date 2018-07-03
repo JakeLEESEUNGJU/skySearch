@@ -30,11 +30,18 @@
 		<property name="mapperLocations"
 			value="WEB-INF/sqlmap/mysql/*.xml" />
 	</bean>
+	<bean id="sqlSessionTemplate"
+		class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlSession" />
+	</bean>
 	<!-- <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean"> 
-		<property name="dataSource" ref="dataSource" /> <property name="mapperLocations" 
-		value="WEB-INF/sqlmap/oracle/*.xml" /> </bean> <bean id="sqlSessionTemplate" 
-		class="org.mybatis.spring.SqlSessionTemplate"> <constructor-arg index="0" 
-		ref="sqlSession" /> </bean> -->
+		<property name="dataSource" ref="dataSource" />
+		 <property name="mapperLocations" value="WEB-INF/sqlmap/oracle/*.xml" />
+		  </bean>
+		   <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate"> 
+		   <constructor-arg index="0" 	ref="sqlSession" />
+		    </bean>
+		     -->
 
 
 </beans>
