@@ -5,7 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="Askbootstrap">
       <meta name="author" content="Askbootstrap">
-      <title>Osahan Land - Bootstrap 4 Light Real Estate Theme</title>
+      <title>Sky Search - 특가의 모든 것</title>
       
   <!-- Favicon Icon -->
 <!--       <link rel="icon" type="image/png" href="images/favicon.png'/>"> -->

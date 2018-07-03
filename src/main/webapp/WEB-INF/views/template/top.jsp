@@ -6,7 +6,7 @@
       <header>
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-               <a class="navbar-brand text-success logo" href="<c:url value='/'/>"><i class="mdi mdi-home-map-marker"></i> <strong>Sky Search</strong></a>
+               <a class="navbar-brand text-success logo" href="<c:url value='/'/>"><i class="mdi mdi-airplane-takeoff"></i> <strong>Sky Search</strong></a>
                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>

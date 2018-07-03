@@ -28,7 +28,7 @@
          </div>
          <div class="slider-form">
             <div class="container">
-               <h1 class="text-center text-white mb-5">Find Your Favorite Property</h1>
+               <h1 class="text-center text-white mb-5">특가 상품!</h1>
                <form>
                   <div class="row no-gutters">
                      <div class="col-md-4">
@@ -256,6 +256,7 @@
          </div>
       </section>
       <!-- End Properties List -->
+      
       <!-- Properties by City -->
       <section class="section-padding bg-white">
          <div class="section-title text-center mb-5">
@@ -351,6 +352,7 @@
          </div>
       </section>
       <!-- End Trusted Agents -->
+      
       <!-- Blog -->
       <section class="section-padding border-top">
          <div class="section-title text-center mb-5">
