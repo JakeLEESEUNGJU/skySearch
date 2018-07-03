@@ -122,7 +122,7 @@
       </section>
       <!-- End Main Slider With Form -->
       
-      <!-- Properties List -->
+     <%--  <!-- Properties List -->
       <section class="section-padding">
          <div class="section-title text-center mb-5">
             <h2>Latest Properties</h2>
@@ -255,12 +255,12 @@
             </div>
          </div>
       </section>
-      <!-- End Properties List -->
+      <!-- End Properties List --> --%>
       
       <!-- Properties by City -->
       <section class="section-padding bg-white">
          <div class="section-title text-center mb-5">
-            <h2>Property By City</h2>
+            <h2>여행지 정보</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
          </div>
          <div class="container">

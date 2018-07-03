@@ -24,7 +24,7 @@
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Properties
+                                                        특가상품
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
                            <a class="dropdown-item" href="<c:url value='/properties-grid'/>">Properties Grid</a>
@@ -35,7 +35,7 @@
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Agency
+                                                        여행정보
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
                            <a class="dropdown-item" href="<c:url value='/agency-list'/>">Agency List</a>
@@ -46,14 +46,14 @@
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Blog
+                        		마이페이지
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
                            <a class="dropdown-item" href="<c:url value='/blog'/>">Blog</a>
                            <a class="dropdown-item" href="<c:url value='/blog-single'/>">Blog Single</a>
                         </div>
                      </li>
-                     <li class="nav-item dropdown">
+                     <%-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         My Account
                         </a>
@@ -75,7 +75,7 @@
                            <a class="dropdown-item" href="<c:url value='/contact'/>">Contact</a>
                            <a class="dropdown-item" href="<c:url value='/not-found'/>">404 Page</a>
                         </div>
-                     </li>
+                     </li> --%>
                   </ul>
                   <div class="my-2 my-lg-0">
                      <ul class="list-inline main-nav-right">
