@@ -20,6 +20,7 @@
                         </a>
                      </li>
                      <li class="nav-item">
+
                         <a class="nav-link" href="<c:url value='/specialPrice/main'/>" id="navbarDropdownPortfolio"  aria-haspopup="true" aria-expanded="false">
                                                       <strong>특가 상품</strong>
                         </a>

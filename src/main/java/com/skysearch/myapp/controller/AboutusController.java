@@ -1,4 +1,4 @@
-package com.skysearch.myapp;
+package com.skysearch.myapp.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -15,15 +15,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-public class HomeController {
+public class AboutusController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(AboutusController.class);
 	
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	@RequestMapping(value = "/home/aboutus", method = {RequestMethod.GET,RequestMethod.POST})
+	public String aboutUs(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -33,11 +33,10 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "/home/index";
+		return "/home/aboutus";
 	}
-	
-	@RequestMapping(value = "/home/login", method = {RequestMethod.GET,RequestMethod.POST})
-	public String Login(Locale locale, Model model) {
+	@RequestMapping(value = "/home/contact", method = {RequestMethod.GET,RequestMethod.POST})
+	public String contact(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -47,11 +46,10 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "/home/login";
+		return "/home/contact";
 	}
-	
-	@RequestMapping(value = "/home/signup", method = {RequestMethod.GET,RequestMethod.POST})
-	public String SignUp(Locale locale, Model model) {
+	@RequestMapping(value = "/home/faq", method = {RequestMethod.GET,RequestMethod.POST})
+	public String faq(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -61,7 +59,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "/home/signup";
+		return "/home/faq";
 	}
 	
 }
