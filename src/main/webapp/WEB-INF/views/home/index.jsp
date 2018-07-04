@@ -28,7 +28,7 @@
          </div>
          <div class="slider-form">
             <div class="container">
-               <h1 class="text-center text-white mb-5">특가 상품!</h1>
+               <h1 class="text-center text-white mb-5">언제든 가볍게 지구산책!</h1>
                <form>
                   <div class="row no-gutters">
                      <div class="col-md-4">
@@ -122,11 +122,11 @@
       </section>
       <!-- End Main Slider With Form -->
       
-     <%--  <!-- Properties List -->
+   <!-- Properties List -->
       <section class="section-padding">
          <div class="section-title text-center mb-5">
-            <h2>Latest Properties</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h2>추천 특가 상품</h2>
+            <p>빅 프로모션! 놓치지 마세용!</p>
          </div>
          <div class="container">
             <div class="row">
@@ -134,9 +134,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-success">For Sale</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/1.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/1.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">House in Kent Street</h5>
+                           <h5 class="card-title">뉴욕 특가 떴다!</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> 127 Kent Sreet, Sydny, NEW 2000</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $130,000 <small>/month</small>
@@ -154,9 +154,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-secondary">For Rent</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/2.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/1.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">Family House in Hudson</h5>
+                           <h5 class="card-title">뉴욕뉴욕</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> Hoboken, NJ, USA</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $127,000 <small>/month</small>
@@ -174,9 +174,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-success">For Sale</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/3.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/1.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">Loft Above The City</h5>
+                           <h5 class="card-title">NewYork</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> Hope Street (Stop P), London SW11, UK</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $55,000 <small>/month</small>
@@ -196,9 +196,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-danger">For Sale</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/4.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/4.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">Store Space Greenville</h5>
+                           <h5 class="card-title">필라델피아</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> 250-260 3rd St, Hoboken, NJ 07030, USA</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $25,000 <small>/month</small>
@@ -216,9 +216,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-warning">For Rent</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/5.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/4.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">Villa in Melbourne</h5>
+                           <h5 class="card-title">필라델피아</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> NJ 07305, USA</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $12,000 <small>/month</small>
@@ -236,9 +236,9 @@
                   <div class="card card-list">
                      <a href="#">
                         <span class="badge badge-info">For Rent</span>
-                        <img class="card-img-top" src="<c:url value='/resources/img/list/6.png'/>" alt="Card image cap"/>
+                        <img class="card-img-top" src="<c:url value='/resources/img/overlay/4.png'/>" alt="Card image cap"/>
                         <div class="card-body">
-                           <h5 class="card-title">Villa on Hollywood Boulev</h5>
+                           <h5 class="card-title">필라델피아</h5>
                            <h6 class="card-subtitle mb-2 text-muted"><i class="mdi mdi-home-map-marker"></i> The Village, Jersey City, NJ 07302, USA</h6>
                            <h2 class="text-success mb-0 mt-3">
                               $356, 000 <small>/month</small>
@@ -255,7 +255,7 @@
             </div>
          </div>
       </section>
-      <!-- End Properties List --> --%>
+      <!-- End Properties List --> 
       
       <!-- Properties by City -->
       <section class="section-padding bg-white">
@@ -316,99 +316,6 @@
          </div>
       </section>
       <!-- End Properties by City -->
-      <!-- Trusted Agents -->
-      <section class="section-padding">
-         <div class="section-title text-center mb-5">
-            <h2>Trusted Agents</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-md-4">
-                  <div class="agents-card text-center">
-                     <img class="img-fluid mb-4" src="<c:url value='/resources/img/user/1.jpg'/>" alt=""/>
-                     <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                     <h6 class="mb-0 text-success">- Stave Martin</h6>
-                     <small>Buying Agent</small>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4">
-                  <div class="agents-card text-center">
-                     <img class="img-fluid mb-4" src="<c:url value='/resources/img/user/2.jpg'/>" alt=""/>
-                     <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                     <h6 class="mb-0 text-success">- Mark Smith</h6>
-                     <small>Selling Agent</small>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4">
-                  <div class="agents-card text-center">
-                     <img class="img-fluid mb-4" src="<c:url value='/resources/img/user/3.jpg'/>" alt=""/>
-                     <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</p>
-                     <h6 class="mb-0 text-success">- Ryan Printz</h6>
-                     <small>Real Estate Broker</small>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End Trusted Agents -->
       
-      <!-- Blog -->
-      <section class="section-padding border-top">
-         <div class="section-title text-center mb-5">
-            <h2>Blogs We Wrote For You</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-md-4">
-                  <div class="card blog-card">
-                     <a href="#">
-                        <img class="card-img-top" src="<c:url value='/resources/img/blog/1.png'/>" alt="Card image cap"/>
-                        <div class="card-body">
-                           <span class="badge badge-success">House/Villa</span>
-                           <h6>Possimus aut mollitia eum ipsum</h6>
-                           <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-                        </div>
-                        <div class="card-footer">
-                           <p class="mb-0"><img class="rounded-circle" src="<c:url value='/resources/img/user/3.jpg'/>" alt="Card image cap"/> <strong>Rahul Yadav</strong> On October 03, 2018</p>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4">
-                  <div class="card blog-card">
-                     <a href="#">
-                        <img class="card-img-top" src="<c:url value='/resources/img/blog/2.png'/>" alt="Card image cap"/>
-                        <div class="card-body">
-                           <span class="badge badge-danger">Shop/Showroom</span>
-                           <h6>Consectetur adipisicing elit</h6>
-                           <p class="mb-0">Cnsectetur ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-                        </div>
-                        <div class="card-footer">
-                           <p class="mb-0"><img class="rounded-circle" src="<c:url value='/resources/img/user/2.jpg'/>" alt="Card image cap"/> <strong>Rahul Yadav</strong> On October 05, 2018</p>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-4">
-                  <div class="card blog-card">
-                     <a href="#">
-                        <img class="card-img-top" src="<c:url value='/resources/img/blog/3.png'/>" alt="Card image cap"/>
-                        <div class="card-body">
-                           <span class="badge badge-info">Industrial Building</span>
-                           <h6>Fugiat odio officiis odit</h6>
-                           <p class="mb-0">Mollitia ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-                        </div>
-                        <div class="card-footer">
-                           <p class="mb-0"><img class="rounded-circle" src="<c:url value='/resources/img/user/1.jpg'/>" alt="Card image cap"/> <strong>Rahul Yadav</strong> On October 06, 2018</p>
-                        </div>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- End Blog -->
-
+      
 
